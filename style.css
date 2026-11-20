@@ -148,3 +148,6 @@ nav a.cur{border-bottom:2px solid var(--sun)}
 .step .ticks{margin-top:16px}
 .step .ticks li{font-size:16px;color:var(--soft)}
 .step .ticks strong{color:var(--ink)}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px 28px}
+.bar h3{font-size:20px;margin:0}.bar p{margin:6px 0 0;color:var(--soft)}.bar .more{margin-top:0}
