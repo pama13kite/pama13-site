@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pama13.com/sitemap.xml
