@@ -70,7 +70,8 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .logo{display:block}.hlogo{height:26px;width:auto;display:block}.flogo{height:30px;width:auto;display:block;color:var(--ink)}.flogo path,.flogo rect{fill:currentColor}footer .wrap{align-items:center}
-#intro{position:fixed;inset:0;z-index:100;background:#0c2a3b;display:grid;place-items:center;animation:introOut .7s ease 1.5s forwards}
+#intro{position:fixed;inset:0;z-index:100;background:#0c2a3b;display:grid;place-content:center;justify-items:center;gap:clamp(14px,3vw,26px);animation:introOut .7s ease 1.5s forwards}
+#intro::after{content:"kite school";color:#fff;font:600 clamp(16px,3.2vw,28px) Unbounded,Onest,sans-serif;letter-spacing:.42em;margin-right:-.42em;opacity:0;animation:introIn 1s ease .45s both}
 .ilogo{width:min(62vw,400px);height:auto;animation:introIn 1s ease both}
 @keyframes introIn{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
 @keyframes introOut{to{opacity:0;visibility:hidden}}
