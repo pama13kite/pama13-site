@@ -5,7 +5,7 @@ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:en
 html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Onest,system-ui,sans-serif}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 h1,h2,h3{font-family:Unbounded,Onest,sans-serif;line-height:1.1;margin:0;font-weight:700}
 a{color:inherit}
 .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
